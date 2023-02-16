@@ -1,6 +1,3 @@
-// Cho-Han, by Al Sweigart
-// The traditional Japanese dice game of even-odd.
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
