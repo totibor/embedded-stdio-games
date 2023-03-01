@@ -6,12 +6,13 @@
 
 void dnaGame(void)
 {
-    // Seed the random number generator.
+    // Seed the random number generator. Yes, in this form it is not
+    // really random since it will give the same sequence for every run,
+    // but it's good enough for this program.
     srand(1);
 
     char *ROWS[] =
     {
-       //123456789 <- Use this to measure the number of spaces:
         "         ##", // Index 0 hans no %c
         "        #%c-%c#",
         "       #%c---%c#",
