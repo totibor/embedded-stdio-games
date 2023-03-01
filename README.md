@@ -13,7 +13,7 @@ Copy source and header files into your project then include the provided header 
 #include "syscalls.h"
 ```
 
-Initialize system calls with UART port that is connected to a UART <-> USB converter. In case of STM32 Nucleo boards it is already available.
+Initialize system calls with UART port that is connected to a UART <-> USB adapter. In case of STM32 Nucleo boards it is already available.
 ```c
 syscallsInit(&huart2);
 ```
@@ -30,6 +30,9 @@ int main(void)
     }
 }
 ```
+
+## DNA Game
+![](dnagame.gif)
 
 ## Open serial communication with default application
 1) List all the connected devices with `ls /dev/cu.*` command then look for `usbserial` or `usbmodem`.
